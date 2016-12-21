@@ -1,0 +1,276 @@
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Anton');
+
+/* Animaciones */
+@import url('animations.css');
+
+/* 
+Importante: font-family: 'Anton', sans-serif;
+Títulos: font-family: 'Montserrat', sans-serif;
+Texto: font-family: 'Lato', sans-serif;
+
+Tamaño de Texto: 16px
+
+Amarillo: #FFB61E
+Negro: #1B1B1B
+Blanco: #FFFFFF
+
+Transición .75s ease-in-out
+*/
+
+body {
+    font-size: 18px !important;
+    font-family: 'Lato', sans-serif;
+    
+    color: #1b1b1b;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 16px !important;
+    }
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+}
+
+/* Hero Unit */
+
+.hero {
+    background-color: #1b1b1b;
+    
+    min-height: 660px;
+    padding-top: 130px;
+    
+    overflow: hidden;
+}
+
+.hero-textbox {
+    color: white !important;
+    max-width: 650px;
+}
+
+.hero-impact {
+    font-size: 45px;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-kerning: auto;
+    
+    margin-bottom: 5px;
+}
+
+.hero-impact span {
+    color: #FFB61E;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-impact {
+        font-size: 35px;
+    }
+}
+
+.hero-divider {
+    background-color: #FFB61E;
+    
+    width: 80px;
+    height: 4px;
+    
+    margin-bottom: 5px;
+}
+
+.hero-intro {
+    font-size: 115%;
+}
+
+.hero-intro strong {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 105%;
+    
+    color: #FFB61E;
+}
+
+.hero-cta {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    
+    background-color: #ffb61e ;
+    color: #fff;
+    
+    padding: 20px;
+    margin-top: 10px;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.hero-cta:hover {
+    color: #ffb61e;
+    
+    text-decoration: none !important;
+}
+
+/* General */
+
+.section-title {
+    font-size: 45px;
+    text-align: center;
+}
+
+.section-title span{
+    color: #ffb61e;
+}
+
+.section-lead {
+    font-size: 100%;
+    text-align: center;
+    font-weight: 300;
+}
+
+.divider {
+    background-color: #FFB61E;
+    
+    width: 40px;
+    height: 4px;
+    
+    margin-bottom: 5px;
+}
+
+.divider-title {
+    background-color: #1b1b1b;
+    
+    margin: 0 auto;
+    
+    width: 80px;
+    height: 4px;
+    
+    margin-bottom: 5px;
+    margin-top: -5px;
+}
+
+.button-group {
+    text-align: center;
+}
+
+.section-cta {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    
+    background-color: #ffb61e;
+    color: #fff;
+    
+    padding: 20px;
+    margin-top: 10px;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.section-cta:hover {
+    
+    
+    text-decoration: none !important;
+}
+
+.c-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    
+    background-color: #1b1b1b;
+    color: #fff;
+    
+    padding: 20px;
+    margin-top: 10px;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.c-btn:hover {
+    
+    
+    text-decoration: none !important;
+}
+
+/* Proceso */
+
+#proceso {
+    padding: 50px 0;
+}
+
+.step {
+    padding:10px;
+    background-color: ;
+    margin: 10px 0;
+    /* border-bottom: 4px solid #eee; */
+}
+
+.step-icon {
+    font-size: 40px;
+    
+    color: #ffb61e;
+}
+.step-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 115%;
+    font-weight: 500;
+}
+
+.step-text {
+    font-size: 95%;
+}
+
+/* Proyectos */
+
+#proyectos {
+    background-color: #ffb61e;
+    
+    padding: 50px 0;
+}
+
+#proyectos .section-title span{
+    color: #fff;
+}
+
+.proyectos-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.proyecto {
+    overflow: hidden;
+    padding: 0px;
+    margin: 5px;
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.proyecto-img {
+    width: 100%;
+    transition: .7s ease-out;
+}
+
+.proyecto-img:hover {
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    cursor: pointer;
+}
+
+#proyectos .section-cta {
+    background-color: #1b1b1b;
+    color: #ffb61e;
+}
+
+#proyectos .section-cta:hover {
+    color: #ffb61e;
+}

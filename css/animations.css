@@ -1,0 +1,146 @@
+/* Hover.css */
+
+    /* Swipe To Left BLANCO */
+    .bounce-btn {
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px transparent;
+      position: relative;
+      -webkit-transition-property: color;
+      transition-property: color;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+        overflow: hidden;
+    }
+    .bounce-btn:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: -30px;
+      right: -1px;
+      bottom: 0;
+      background: #FFF;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transform-origin: 100% 50%;
+      transform-origin: 100% 50%;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: .4s;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+      -webkit-clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
+        
+    }
+    .bounce-btn:hover, .bounce-btn:focus, .bounce-btn:active {
+      color: white;
+    }
+    .bounce-btn:hover:before, .bounce-btn:focus:before, .bounce-btn:active:before {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+        
+    }
+
+
+/* Swipe To Left Negro */
+    .black-btn {
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px transparent;
+      position: relative;
+      -webkit-transition-property: color;
+      transition-property: color;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+        overflow: hidden;
+    }
+    .black-btn:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: -60px;
+      right: -10px;
+      bottom: 0;
+      background: #1b1b1b;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transform-origin: 100% 50%;
+      transform-origin: 100% 50%;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: .4s;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+      -webkit-clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
+        
+    }
+    .black-btn:hover, .black-btn:focus, .black-btn:active {
+      color: white;
+    }
+    .black-btn:hover:before, .black-btn:focus:before, .black-btn:active:before {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+        
+    }
+
+/* Swipe To Left Yellow */
+    .white-btn {
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px transparent;
+      position: relative;
+      -webkit-transition-property: color;
+      transition-property: color;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+        overflow: hidden;
+    }
+    .white-btn:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: -40px;
+      right: -10px;
+      bottom: 0;
+      background: #fff;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transform-origin: 100% 50%;
+      transform-origin: 100% 50%;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: .4s;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+      -webkit-clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
+        
+    }
+    .white-btn:hover, .white-btn:focus, .white-btn:active {
+      color: white;
+    }
+    .white-btn:hover:before, .white-btn:focus:before, .white-btn:active:before {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+        
+    }

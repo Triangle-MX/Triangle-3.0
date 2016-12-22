@@ -135,7 +135,7 @@
         
     }
     .white-btn:hover, .white-btn:focus, .white-btn:active {
-      color: white;
+      color: #1b1b1b;
     }
     .white-btn:hover:before, .white-btn:focus:before, .white-btn:active:before {
       -webkit-transform: scaleX(1);

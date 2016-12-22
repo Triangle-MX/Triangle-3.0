@@ -268,9 +268,9 @@ h1 {
 
 #proyectos .section-cta {
     background-color: #1b1b1b;
-    color: #ffb61e;
+    color: #fff;
 }
 
 #proyectos .section-cta:hover {
-    color: #ffb61e;
+    color: #1b1b1b;
 }

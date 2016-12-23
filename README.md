@@ -11,7 +11,7 @@ Your downloaded version of the repository will include this files:<br><br> <code
 If you don't want to have this files, erase them as well as the <code>browserconfig.xml</code> file, and the respective link tags located in the <code>index.html</code> and <code>index-2.html</code> files.
 
 ## Credits
-José Pablo Iglesias - Coding and Design<br>
+José Pablo Iglesias - Code and Design<br>
 Imanol Blix - Design<br>
 Máximo Sánchez - Design<br>
 David Suárez - Texts<br>

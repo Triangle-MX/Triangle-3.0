@@ -274,3 +274,8 @@ h1 {
 #proyectos .section-cta:hover {
     color: #1b1b1b;
 }
+
+/* Packs */
+#packs {
+    padding: 50px 0;
+}

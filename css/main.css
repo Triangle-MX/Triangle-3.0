@@ -229,6 +229,9 @@ h1 {
 
 /* Proyectos */
 
+/* Estilos para portfolio.html */
+@import url('portfolio.css');
+
 #proyectos {
     background-color: #ffb61e;
     
@@ -280,7 +283,10 @@ h1 {
     padding: 50px 0;
 }
 
-/* Contacto */
+/* Sobre Nosotros */
 
-/* Estilos para contacto.html */
-@import url('contacto.css');
+/* Estilos para about.html */
+@import url('about.css');
+
+
+/* Contacto */

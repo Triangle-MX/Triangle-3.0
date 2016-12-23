@@ -9,7 +9,8 @@ If you want to add Google Analytics Tracking (or any other form of tracking), <s
 Your downloaded version of the repository will include this files:<br><br> <code>favicon.ico</code> This is the Favicon.<br> <code>tile.png</code> and <code>tile-wide.png</code>, which used in some browsers.<br>
 <code>apple-touch-icon.png</code>, which is used in Safari for macOS and iOS.<br><br>
 If you don't want to have this files, erase them as well as the <code>browserconfig.xml</code> file, and the respective <code>link</code> tags located in the <code>index.html</code> and <code>index-2.html</code> files.
-
+#### The A/B Testing
+If you download the code, we highly recommend erasing the <code>index-2.html</code> file, which we are going to use for some A/B Testing later.
 ## Credits
 José Pablo Iglesias - Code and Design<br>
 Imanol Blix - Design<br>

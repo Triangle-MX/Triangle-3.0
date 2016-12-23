@@ -1,4 +1,4 @@
-SITEMAP
+triangle.mx
    |
    |---> Error 403 ---> 403.html
    |
@@ -20,7 +20,7 @@ index.html
    |                           |
    |                           |- #footer(reused)
    |
-   |- #packs ---> #contacto
+   |- #packs ---> #contacto ??? Erase Maybe ???
    |
    |- #about ---> about.html
    |                   |

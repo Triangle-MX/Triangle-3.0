@@ -8,7 +8,7 @@ If you want to add Google Analytics Tracking (or any other form of tracking), <s
 #### Favicon and Tiles
 Your downloaded version of the repository will include this files:<br><br> <code>favicon.ico</code> This is the Favicon.<br> <code>tile.png</code> and <code>tile-wide.png</code>, which used in some browsers.<br>
 <code>apple-touch-icon.png</code>, which is used in Safari for macOS and iOS.<br><br>
-If you don't want to have this files, erase them as well as the <code>browserconfig.xml</code> file, and the respective <code>link</code>tags located in the <code>index.html</code> and <code>index-2.html</code> files.
+If you don't want to have this files, erase them as well as the <code>browserconfig.xml</code> file, and the respective <code>link</code> tags located in the <code>index.html</code> and <code>index-2.html</code> files.
 
 ## Credits
 José Pablo Iglesias - Code and Design<br>
@@ -17,7 +17,7 @@ Máximo Sánchez - Design<br>
 David Suárez - Texts<br>
 
 ## License
-You <strong></strong> for personal purposes, but any type of commercial activity with it (the code) is prohibited.<br>
+You <strong>may use</strong> the code for personal purposes, but any type of commercial activity with it (the code) is prohibited.<br>
 If you use the code, you <strong>have</strong> to give us credit on your footer, with one of the following code snippets:  <br>
 
 ```html

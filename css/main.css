@@ -279,3 +279,8 @@ h1 {
 #packs {
     padding: 50px 0;
 }
+
+/* Contacto */
+
+/* Estilos para contacto.html */
+@import url('contacto.css');

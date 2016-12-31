@@ -20,20 +20,20 @@ Máximo Sánchez - Design<br>
 David Suárez - Texts<br>
 
 ## License
-You <strong>may use</strong> the code for personal purposes, but any type of commercial activity with it (the code) is prohibited.<br>
-If you use the code, you <strong>have</strong> to give us credit on your footer, with one of the following code snippets:  <br>
+This Repo is under a <strong>Creative Commons Attribution-ShareAlike 4.0 International Public License</strong> which means: <ul>
+<li><strong>Share</strong> — copy and redistribute the material in any medium or format for any purpose, even commercially.</li>
+<li><strong>Adapt</strong> — remix, transform, and build upon the material
+for any purpose, even commercially.</li>
+<li>We <strong>cannot</strong> revoke these freedoms as long as you follow the license terms.
+</ul>
+#### License Terms
+To use the work you <strong>must</strong> respect the following terms:
+<ul>
+<li><strong>Attribution</strong> — You must give <strong>appropriate credit</strong>, provide a link to the license, and <strong>indicate if changes were made</strong>. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. You may give credit with a link at the footer of the main page (for example, the <code>index.html</code> file).
+</li>
+<li><strong>ShareAlike</strong> — If you remix, transform, or build upon the material, you must distribute your contributions under the <strong>same license</strong> as the original.</li>
+<li><strong>No Additional Restrictions</strong> — You <strong>may not</strong> apply legal terms or technological measures that legally restrict others from doing anything the license permits.</li>
+</ul>
 
-```html
-<span>Base Code by <a href="https://triangle.mx/">Triangle</a>.</span>
-```
-
-```html
-<span>Design by <a href="https://triangle.mx/">Triangle</a>.</span>
-```
-
-```html
-<span>Some of the code in this Website was created by <a href="https://triangle.mx/">Triangle</a>.</span>
-```
-
-#### The Avatars
-Throughout the website, we used some illustrations <strong>we</strong> created. <strong>You can't use them</strong>. If you download the code you have to erase them. This is to protect the intellectual work of our designers.
+#### License Disclaimer
+The "License" just shown is <strong>not</strong> the complete version of the Creative Commons Attribution-ShareAlike 4.0 International Public License, it is <strong>just a summary</strong>. You may find the complete license on the <code>LICENSE.txt</code> file.

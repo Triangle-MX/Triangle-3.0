@@ -36,4 +36,4 @@ To use the work you <strong>must</strong> respect the following terms:
 </ul>
 
 #### License Disclaimer
-The "License" just shown is <strong>not</strong> the complete version of the Creative Commons Attribution-ShareAlike 4.0 International Public License, it is <strong>just a summary</strong>. You may find the complete license on the <code>LICENSE.txt</code> file.
+The "License" just shown is <strong>not</strong> the complete version of the Creative Commons Attribution-ShareAlike 4.0 International Public License, it is <strong>just a summary</strong>. You may find the complete license on the <code>LICENSE</code> file or <a href="https://creativecommons.org/licenses/by-sa/4.0/">here</a>.

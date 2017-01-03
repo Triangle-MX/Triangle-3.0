@@ -57,7 +57,11 @@ h1 {
 
 .hero-textbox {
     color: white !important;
-    max-width: 650px;
+}
+
+.hero-img {
+    width: 290px;
+    min-width: 145px;
 }
 
 .hero-impact {

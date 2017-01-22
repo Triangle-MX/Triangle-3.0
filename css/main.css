@@ -78,7 +78,7 @@ h1 {
     }
 }
 
-.hero-impact {
+#hero-impact {
     font-size: 45px;
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
@@ -88,7 +88,7 @@ h1 {
     margin-bottom: 5px;
 }
 
-.hero-impact span {
+#hero-impact span {
     color: #FFB61E;
 }
 
@@ -96,7 +96,7 @@ h1 {
     .hero-img {
         width: 145px;
     }
-    .hero-impact {
+    #hero-impact {
         font-size: 35px;
     }
 }

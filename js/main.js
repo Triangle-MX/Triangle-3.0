@@ -1,4 +1,4 @@
-// Page Scroll
+// Page Smooth Scroll
 
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {

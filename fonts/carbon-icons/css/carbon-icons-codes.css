@@ -24,6 +24,9 @@
 .carbon-work:before { content: '\e816'; } /* '' */
 .carbon-wrench:before { content: '\e817'; } /* '' */
 .carbon-pencil:before { content: '\e818'; } /* '' */
+.carbon-emo-beer:before { content: '\e819'; } /* '' */
+.carbon-cancel:before { content: '\e81a'; } /* '' */
+.carbon-lock:before { content: '\e81b'; } /* '' */
 .carbon-twitter:before { content: '\f099'; } /* '' */
 .carbon-facebook:before { content: '\f09a'; } /* '' */
 .carbon-chemistry:before { content: '\f0c3'; } /* '' */
@@ -45,6 +48,7 @@
 .carbon-circle-outline:before { content: '\f10c'; } /* '' */
 .carbon-circle:before { content: '\f111'; } /* '' */
 .carbon-code:before { content: '\f121'; } /* '' */
+.carbon-help:before { content: '\f128'; } /* '' */
 .carbon-rocket:before { content: '\f135'; } /* '' */
 .carbon-dollar:before { content: '\f155'; } /* '' */
 .carbon-youtube:before { content: '\f167'; } /* '' */

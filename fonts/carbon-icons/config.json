@@ -529,6 +529,30 @@
       "css": "laptop",
       "code": 61705,
       "src": "fontawesome"
+    },
+    {
+      "uid": "3a900d0e9f43f5409211f62bec557379",
+      "css": "emo-beer",
+      "code": 59417,
+      "src": "fontelico"
+    },
+    {
+      "uid": "5211af474d3a9848f67f945e2ccaf143",
+      "css": "cancel",
+      "code": 59418,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "c1f1975c885aa9f3dad7810c53b82074",
+      "css": "lock",
+      "code": 59419,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "ce3cf091d6ebd004dd0b52d24074e6e3",
+      "css": "help",
+      "code": 61736,
+      "src": "fontawesome"
     }
   ]
 }

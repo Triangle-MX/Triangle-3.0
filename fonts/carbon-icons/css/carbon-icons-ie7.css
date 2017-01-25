@@ -35,6 +35,9 @@
 .carbon-work { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe816;&nbsp;'); }
 .carbon-wrench { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe817;&nbsp;'); }
 .carbon-pencil { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe818;&nbsp;'); }
+.carbon-emo-beer { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe819;&nbsp;'); }
+.carbon-cancel { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe81a;&nbsp;'); }
+.carbon-lock { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe81b;&nbsp;'); }
 .carbon-twitter { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf099;&nbsp;'); }
 .carbon-facebook { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09a;&nbsp;'); }
 .carbon-chemistry { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0c3;&nbsp;'); }
@@ -56,6 +59,7 @@
 .carbon-circle-outline { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf10c;&nbsp;'); }
 .carbon-circle { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf111;&nbsp;'); }
 .carbon-code { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf121;&nbsp;'); }
+.carbon-help { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf128;&nbsp;'); }
 .carbon-rocket { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf135;&nbsp;'); }
 .carbon-dollar { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf155;&nbsp;'); }
 .carbon-youtube { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf167;&nbsp;'); }

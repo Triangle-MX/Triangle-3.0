@@ -30,14 +30,14 @@
               new WOW().init();
         </script>
     </head>
-    <body>
+    <body onload="setTimeout(closeNotificationBar, 20000);">
         <!--[if lt IE 8]>
             <p class="browserupgrade">Estas usando una versión muy <strong>anticuada</strong> de tu navegador. Por favor <a href="http://browsehappy.com/">actualiza tu navegador</a> para tener una mejor experiencia en la red.</p>
         <![endif]-->
     
     <!-- Notification Bar -->
     <div class="wow fadeIn" data-wow-duration=".5s" data-wow-delay="1.5s">
-        <div id="notification-bar" class="animated"><p>Hola Mundo!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i onclick="closeNotificarionBar()" id="close-btn" class="carbon-cancel"></i></p></div>
+        <div id="notification-bar" class="animated"><p>¡No te pierdas de nada! Síguenos en <a target="_blank" href="https://www.facebook.com/trianglewebmexico">Facebook</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i onclick="closeNotificationBar()" id="close-btn" class="carbon-cancel"></i></p></div>
     </div>
     
     <!-- Hero -->
@@ -108,7 +108,7 @@
                         <div class="col-xs-8">
                             <span class="step-title">4. Revisión</span>
                             <div class="divider"></div>
-                            <p class="step-text">Revisaremos junto contigo los últimos detalles antes de comenzar tu proyecto, para asegurararnos que sea excelente.</p>
+                            <p class="step-text">Revisaremos contigo los últimos detalles antes de comenzar tu proyecto, para asegurararnos que sea excelente.</p>
                         </div>
                     </div>
                     <div class="step row">
@@ -157,9 +157,9 @@
                     <a href="http://trent.triangle.mx" target="_blank"><img class="proyecto-img" src="img/Proyectos/Trent.png"></a>
                 </div>
             </div>
-            <div class="button-group">
+            <!--<div class="button-group">
                     <a class="section-cta white-btn" href="#proyectos" role="button">Ver Proyectos<i class="carbon-television"></i></a>
-            </div>
+            </div>-->
         </div>
     </div>
     <!--./ Proyectos -->
@@ -174,21 +174,63 @@
     </div>
     ./ Packs -->
     
+    <!-- About -->
     <div id="about">
         <div class="container">
-            <div class="button-group">
-                    <a class="section-cta black-btn" href="#proyectos" role="button">Descubre Más<i class="carbon-search"></i></a>
+            <h1 class="section-title">Sobre <span>Nosotros</span> </h1>
+            <div class="divider-title"></div>
+            <p class="section-lead">Somos un estudio de diseño/desarrollo web creado por personas altamente capaces de ayudarte a conseguir e impresionar más clientes y/o fans.<br>Lo que nos pone encima de otros estudios de diseño/desarrollo web, es nuestro equipo:</p>
+            <div class="equipo-flexbox">
+                <div class="miembro">
+                    <img class="miembro-foto" src="img/Equipo/JPIglesias.png">
+                    <span class="miembro-name">José Pablo Iglesias</span>
+                    <span class="miembro-puesto">Director General</span>
+                </div>
+                <div class="miembro">
+                    <img class="miembro-foto" src="img/Equipo/Blix.png">
+                    <span class="miembro-name">Imanol Blix</span>
+                    <span class="miembro-puesto">Director de Operaciones</span>
+                </div>
+                <div class="miembro">
+                    <img class="miembro-foto" src="img/Equipo/Suarez.png">
+                    <span class="miembro-name">David Suárez</span>
+                    <span class="miembro-puesto">Director de Ventas</span>
+                </div>
             </div>
+            <!--<div class="button-group">
+                    <a class="section-cta black-btn" href="#proyectos" role="button">Descubre Más<i class="carbon-search"></i></a>
+            </div>-->
         </div>
     </div>
+    <!-- ./ About -->
    
       
-    
+    <!-- Contacto -->
+    <div id="contacto">
+        <div class="container">
+            <h1 class="section-title"> <span>Contáctanos</span> </h1>
+            <div class="divider-title"></div>
+            <p class="section-lead">Ahora que sabes de nosotros, cuentanos de tí: Dinos si tienes algún proyecto que quieras sacar adelante, estaremos dispuesto a ayudarte. Además compartenos tus dudas, quejas, sugerencias... ¡Las leeremos con mucho gusto!</p>
+            
+            <form class="contactform" method="POST" action="http://formspree.io/contacto@triangle.mx">
+                      <p class="placeholder">Tu Nombre:</p>
+                      <input type="text" name="name"><br>
+                      <p class="placeholder">Tu Correo Electrónico (para poder contactarte):</p>
+                      <input id="email" type="email" name="_replyto"><br>
+                      <input type="hidden" name="_next" value="thanks.html" />
+                      <input type="text" name="_gotcha" style="display:none" />
+                      <p class="placeholder">El Mensaje que desees enviarnos:</p>
+                      <textarea name="message"  rows="4"></textarea><br>
+                      <a class="hero-cta bounce-btn" style="cursor: pointer;" type="submit" role="button">Enviar <i class="carbon-plane"></i></a>
+            </form>
+
+        </div>
+    </div>
+    <!--./ Contacto -->   
         
-        <!-- Analytics + Triangle Insight -->
-           
-            <!-- Analytics Tracking Code -->
-            <script>
+         
+        <!-- Scripts -->
+        <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -197,27 +239,27 @@
             ga('create', 'UA-74662952-2', 'auto');
             ga('send', 'pageview');
 
-            </script>
-            
-            
-        <!-- Instant CM -->
+        </script>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript">
+            window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>'
+        </script>
+        
         <script src="https://instantcm.com/js/v2/latest/txt-min.js"></script>
         <script type="text/javascript">
-        Txt.render({id: "a6025fb0-5b46-4440-a9ca-71f88d2739f6"})
-        </script>    
+            Txt.render({id: "a6025fb0-5b46-4440-a9ca-71f88d2739f6"})
+        </script> 
          
-        <!-- Scripts -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
         <script src="js/vendor/bootstrap.min.js"></script>
+        
         <script src="js/main.js"></script>
         
-        <!-- Scripts -->
-	    <script src="js/vendor/rellax.js"></script>
+        <script src="js/vendor/rellax.js"></script>
 	    <script>
 		  var rellax = new Rellax('.rellax');
 	    </script>
+	    <!-- ./ Scripts -->
 	    
     </body>
 </html>

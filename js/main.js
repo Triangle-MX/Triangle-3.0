@@ -15,9 +15,9 @@ $(function() {
   });
 });
 
+
 // Notification Bar
-function closeNotificarionBar(){
-    var notificationBar = document.getElementById('notification-bar');
-    notificationBar.classList.add('close-nbar');
-    // notificationBar.classList.add('fadeOutUp');
+
+function closeNotificationBar(){
+    var notificationBar = document.getElementById('notification-bar');        notificationBar.classList.add('close-nbar');
 };

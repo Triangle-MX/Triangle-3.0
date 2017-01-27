@@ -22,12 +22,30 @@ Blanco: #FFFFFF
 Transición .75s ease-in-out
 */
 
+::-moz-selection {
+    text-shadow: none;
+    background: #4A71ED;
+}
+::selection {
+    text-shadow: none;
+    background: #4A71ED;
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+
 body {
     font-size: 18px !important;
     font-family: 'Lato', sans-serif;
     
     color: #1b1b1b;
     background-color: #1b1b1b;
+    
+    margin: 0px;
+    padding: 0px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -43,6 +61,18 @@ h2, h3, h4, h5, h6 {
 h1 {
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
+}
+
+a {
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .3s;
+}
+
+a:hover {
+    color: #1b1b1b;
+    text-decoration: none;
 }
 
 /* Notification Bar */
@@ -84,9 +114,8 @@ h1 {
 
 .hero {
     background-color: #1b1b1b;
-    
-    background-image: url(../img/parallax-bg-1.png); 
-    background-size: cover;
+    background-image: url(../img/bg.png);
+    background-repeat: repeat;
     
     min-height: 660px;
     padding-top: 130px;
@@ -294,8 +323,8 @@ h1 {
 
 #proyectos {
     background-color: #ffb61e;
-    background-image: url(../img/yellow-bg.svg);
-    background-size: cover;
+    background-image: url(../img/bg.png);
+    background-repeat: repeat;
     
     min-height: 700px;
     
@@ -362,15 +391,130 @@ h1 {
 }
 
 /* Sobre Nosotros */
+#about {
+    padding: 50px 0;
+    background-color: white;   
+}
 
+.equipo-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.miembro {
+    background-color: #eee;
+    
+    text-align: center;
+    
+    overflow: hidden;
+    padding: 0px;
+    margin: 5px;
+    max-width: 300px;
+    max-height: 450px;
+    min-width: 100px;
+    min-height: 150px;
+    
+    transition: .5s;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.miembro:hover {
+    background-color: #ffb61e;
+    background-image: url(../img/bg.png);
+    background-repeat: repeat;
+    
+    color: #fff;
+    
+    z-index: 100;
+    transform: scale(1.075);
+    -webkit-transform: scale(1.075);
+    
+    -webkit-box-shadow: 0px 0px 26px 0px rgba(27,27,27,0.75);
+    -moz-box-shadow: 0px 0px 26px 0px rgba(27,27,27,0.75);
+    box-shadow: 0px 0px 26px 0px rgba(27,27,27,0.75);
+    
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .miembro {
+    background-color: #ffb61e;
+    color: #fff;
+        
+    text-align: center;
+    
+    overflow: hidden;
+    padding: 0px;
+    margin: 5px;
+    max-width: 250px;
+    max-height: 450px;
+    min-width: 100px;
+    min-height: 150px;
+    
+    transition: .5s;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    }
+}
+
+.miembro img {
+    width: 100%;
+}
+
+.miembro-name {
+    font-size: 110%;
+    padding: 10px 10px 0px 10px;
+    display: block;
+}
+
+.miembro-puesto {
+    font-size: 90%;
+    padding-bottom: 10px;
+    display: block;
+    opacity: .9;
+}
 /* Estilos para about.html */
 @import url('about.css');
 
 
 /* Contacto */
+#contacto {
+    padding: 50px 0;
+    color: #fff;
+}
 
+.contactform {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.contactform input, .contactform textarea {
+    color: #1b1b1b !important;
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    transition: .5s;
+}
+
+.contactform input:active , .contactform textarea:active, .contactform input:focus, .contactform textarea:focus {
+    outline: none;
+    margin-top: -7px;
+    border: 3px solid #ffb61e;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
 
 /* Footer */
 #footer {
-    
+    background-color: #fff;
+    margin-bottom: 0px;
 }

@@ -97,6 +97,12 @@ a:hover {
     box-shadow: 0px 0px 26px 0px rgba(27,27,27,0.75);
 }
 
+@media only screen and (max-width: 1000px) {
+    #notification-bar {
+        display: none;
+    }
+}
+
 #notification-bar p {
     margin: 0;
     

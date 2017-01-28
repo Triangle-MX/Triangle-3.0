@@ -29,6 +29,22 @@
         <script>
               new WOW().init();
         </script>
+        
+        <!-- Structured Data -->
+        <script type="application/ld+json">
+            {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "url": "http://www.triangle.mx/",
+            "description": "Triangle es un estudio de Diseño y Desarrollo Web, que crea páginas web modernas y únicas, para proyectos únicos.",
+            "contactPoint": [{
+            "@type": "ContactPoint",
+            "email": "contacto@triangle.mx",
+            "url": "http://triangle.mx/#contacto/",
+            "contactType": "customer service"
+            }]
+            }
+        </script>
     </head>
     <body onload="setTimeout(closeNotificationBar, 20000);">
         <!--[if lt IE 8]>
@@ -223,7 +239,6 @@
                       <textarea name="message"  rows="4"></textarea><br>
                       <button class="hero-cta bounce-btn" style="cursor: pointer; border: none;" type="submit" role="button">Enviar <i class="carbon-plane"></i></button>
             </form>
-
         </div>
     </div>
     <!--./ Contacto -->   
@@ -256,10 +271,8 @@
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
             ga('create', 'UA-74662952-2', 'auto');
             ga('send', 'pageview');
-
         </script>
         
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

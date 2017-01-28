@@ -495,6 +495,9 @@ a:hover {
 #contacto {
     padding: 50px 0;
     color: #fff;
+    
+    background-color: #1b1b1b;
+    background-image: url(../img/bg.png);
 }
 
 .contactform {
@@ -516,11 +519,38 @@ a:hover {
     margin-top: -7px;
     border: 3px solid #ffb61e;
     border-radius: 10px;
-    transform: scale(1.1);
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
 }
 
 /* Footer */
 #footer {
     background-color: #fff;
     margin-bottom: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.trademark {
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+    font-size: 140%;
+}
+
+.trademark strong {
+    font-weight: 700;
+    color: #ffb61e;
+}
+
+.social-links {
+    text-align: center;
+    font-size: 140%;
+    margin-bottom: 0px;
+}
+
+.social-icon a{
+    color: #1b1b1b !important;
+}
+
+.social-icon a:hover{
+    color: #ffb61e !important;
 }

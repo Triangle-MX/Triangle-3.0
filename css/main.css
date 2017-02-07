@@ -213,6 +213,25 @@ a:hover {
 
 /* General */
 
+#goback {
+    width: 100%;
+    
+    padding: 5px;
+    
+    text-align: center;
+    
+    background-color: #ffb61e;
+    
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    -webkit-box-shadow: 0px 0px 26px 0px rgba(27,27,27,0.75);
+    -moz-box-shadow: 0px 0px 26px 0px rgba(27,27,27,0.75);
+    box-shadow: 0px 0px 26px 0px rgba(27,27,27,0.75);
+}
+
 .section-title {
     font-size: 45px;
     text-align: center;
@@ -390,13 +409,8 @@ a:hover {
     color: #1b1b1b;
 }
 
-/* Packs */
-#packs {
-    padding: 50px 0;
-    background-color: white;
-}
-
 /* Sobre Nosotros */
+
 #about {
     padding: 50px 0;
     background-color: white;   
@@ -487,9 +501,36 @@ a:hover {
     display: block;
     opacity: .9;
 }
-/* Estilos para about.html */
-@import url('about.css');
 
+#about-header {
+    background-color: white;
+    margin-top: 10px;
+    padding: 50px 0;
+}
+
+#about-history {
+    background-color: #1b1b1b;
+    background-image: url(../img/bg.png);
+    color: white;
+    padding: 50px 0;
+}
+
+#about-history .divider-title{
+    background-color: #ffb61e;
+}
+
+#about-team {
+    background-color: white;
+    margin-top: 10px;
+    padding: 50px 0;
+}
+
+#about-team .miembro {
+      max-width: 250px;
+    max-height: 450px;
+    min-width: 100px;
+    min-height: 150px;
+}
 
 /* Contacto */
 #contacto {

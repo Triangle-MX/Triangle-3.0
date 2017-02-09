@@ -15,9 +15,21 @@ $(function() {
   });
 });
 
-
 // Notification Bar
 
 function closeNotificationBar(){
     var notificationBar = document.getElementById('notification-bar');        notificationBar.classList.add('close-nbar');
 };
+
+// Sticky Notification Bar
+
+$(function(){
+    $(window).scroll(function() {
+        if ($(this).scrollTop() >= 639) {
+            $('#notification-bar').addClass('sticky-notification');
+        }
+        else {
+            $('#notification-bar').removeClass('sticky-notification');
+        }
+    });
+});

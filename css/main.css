@@ -141,10 +141,9 @@ a:hover {
     color: white !important;
 }
 
-.hero-img {
-    width: 290px;
-    min-width: 145px;
-    margin-top: -10px;
+#hero-logo {
+    width: 230px;
+    margin-bottom: -20px;
 }
 
 @media only screen and (max-width: 995px) {

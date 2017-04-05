@@ -30,6 +30,9 @@ Transición .75s ease-in-out
     text-shadow: none;
     background: #4A71ED;
 }
+img::-moz-selection {
+  background: transparent;
+}
 img::selection {
   background: transparent;
 }
@@ -42,7 +45,7 @@ body {
     font-family: 'Lato', sans-serif;
     
     color: #1b1b1b;
-    background-color: #1b1b1b;
+    /*background-color: #1b1b1b;*/
     
     margin: 0px;
     padding: 0px;
@@ -85,9 +88,13 @@ a:hover {
     
     background-color: #ffb61e;
     
-    animation-duration: .5s;
+    -webkit-animation-duration: .5s;
+    
+            animation-duration: .5s;
     
     z-index: 9999;
+    
+    display: none;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -109,9 +116,8 @@ a:hover {
     top: 0;
     left: 0;
     
-    -webkit-box-shadow: 0px 0px 26px 0px rgba(27,27,27,0.75);
-    -moz-box-shadow: 0px 0px 26px 0px rgba(27,27,27,0.75);
-    box-shadow: 0px 0px 26px 0px rgba(27,27,27,0.75);3
+    display: block;
+    box-shadow: 0px 0px 26px 0px rgba(27,27,27,0.75);
 }
 
 #notification-bar #close-btn {
@@ -122,19 +128,21 @@ a:hover {
     display: none;
 }
 /* Hero Unit */
-
 .hero {
-    background-color: rgba(32,32,32,.6);
-    background-image: url(../img/hero.jpg);
+    background-color: rgba(32,32,32,.8);
+    background-image: url(../img/hero-2.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     background-blend-mode: overlay;
     
-    min-height: 660px;
+    min-height: 670px;
     padding-top: 130px;
     
     overflow: hidden;
+    
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
 }
 
 .hero-textbox {
@@ -143,7 +151,7 @@ a:hover {
 
 #hero-logo {
     width: 230px;
-    margin-bottom: -20px;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 995px) {
@@ -162,7 +170,8 @@ a:hover {
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-kerning: auto;
+    -webkit-font-kerning: auto;
+            font-kerning: auto;
     
     margin-bottom: 5px;
 }
@@ -214,7 +223,8 @@ a:hover {
     text-transform: uppercase;
 }
 
-.hero-cta:hover {
+
+.hero-cta:hover, .hero-cta:active, .hero-cta:visited {
     color: #ffb61e;
     
     text-decoration: none !important;
@@ -235,9 +245,6 @@ a:hover {
     position: fixed;
     top: 0;
     left: 0;
-    
-    -webkit-box-shadow: 0px 0px 26px 0px rgba(27,27,27,0.75);
-    -moz-box-shadow: 0px 0px 26px 0px rgba(27,27,27,0.75);
     box-shadow: 0px 0px 26px 0px rgba(27,27,27,0.75);
 }
 
@@ -356,17 +363,12 @@ a:hover {
 
 /* Proyectos */
 
-/* Estilos para portfolio.html */
-@import url('portfolio.css');
-
 #proyectos {
     background-color: #ffb61e;
     background-image: url(../img/bg.png);
     background-repeat: repeat;
     
-    min-height: 700px;
-    
-    padding-top: 0px;
+    padding: 50px 0;
     overflow: hidden;
 }
 
@@ -387,9 +389,15 @@ a:hover {
 }
 
 .proyectos-flexbox {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .proyecto {
@@ -408,7 +416,8 @@ a:hover {
 }
 
 .proyecto-img:hover {
-    transform: scale(1.15);
+    -ms-transform: scale(1.15);
+        transform: scale(1.15);
     -webkit-transform: scale(1.15);
     cursor: pointer;
 }
@@ -440,15 +449,21 @@ a:hover {
 #about {
     padding: 50px 0;
     background-color: rgba(256,256,256,.97);
-    background-image: url(../img/pattern.svg);
+    
     background-blend-mode: overlay;
     background-attachment: fixed;
 }
 
 .equipo-flexbox {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     
     margin-top: 30px;
     margin-bottom: 30px;
@@ -478,11 +493,9 @@ a:hover {
     /*color: #fff;*/
     
     z-index: 100;
-    transform: scale(1.075);
+    -ms-transform: scale(1.075);
+        transform: scale(1.075);
     -webkit-transform: scale(1.075);
-    
-    -webkit-box-shadow: 0px 0px 0px 0px rgba(27,27,27,0.75);
-    -moz-box-shadow: 0px 0px 0px 0px rgba(27,27,27,0.75);
     box-shadow: 0px 0px 0px 0px rgba(27,27,27,0.75);
     
     -webkit-filter: grayscale(0%);
@@ -546,7 +559,7 @@ a:hover {
 
 #about-team {
     background-color: rgba(256,256,256,.93);
-    background-image: url(../img/pattern.svg);
+    
     background-blend-mode: overlay;
     background-attachment: fixed;
     margin-top: 10px;
@@ -570,6 +583,10 @@ a:hover {
     background-image: url(../img/bg.png);
 }
 
+#contacto .divider-title {
+    background-color: white;
+}
+
 .contactform {
     margin: 20px auto;
     width: 80%;
@@ -589,14 +606,15 @@ a:hover {
     margin-top: -7px;
     border: 3px solid #ffb61e;
     border-radius: 10px;
-    transform: scale(1.05);
+    -ms-transform: scale(1.05);
+        transform: scale(1.05);
     -webkit-transform: scale(1.05);
 }
 
 /* Footer */
 #footer {
     background-color: rgba(256,256,256,.93);
-    background-image: url(../img/pattern.svg);
+    
     background-blend-mode: overlay;
     background-attachment: fixed;
     margin-bottom: 0px;
@@ -627,3 +645,36 @@ a:hover {
 .social-icon a:hover{
     color: #ffb61e !important;
 }
+.last-step {
+    text-align: center;
+}
+.last-step .divider {
+    margin: 0 auto;
+}
+
+.marketing-item {
+    
+    text-align: center;
+    
+    overflow: hidden;
+    
+    padding: 10px;
+    
+}
+
+
+.marketing-icon {
+    color: #ffb61e;
+    font-size: 350%;
+    display: block;
+}
+
+.marketing-title {
+    display: block;
+    font-weight: 700;
+    font-family: 'Montserrat', 'Lato', sans-serif;
+    font-size: 110%;
+}
+
+/* Precios */
+

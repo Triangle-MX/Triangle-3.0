@@ -47,7 +47,7 @@
             }
         </script>
     </head>
-    <body onload="setTimeout(closeNotificationBar, 20000);">
+    <body onload="setTimeout(closeNotificationBar, 20000); $('#ideas-modal').modal('show');">
         <!--[if lt IE 8]>
             <p class="browserupgrade">Estas usando una versión muy <strong>anticuada</strong> de tu navegador. Por favor <a href="http://browsehappy.com/">actualiza tu navegador</a> para tener una mejor experiencia en la red.</p>
         <![endif]-->
@@ -73,6 +73,19 @@
       </div>
     </div>
     <!--/. Hero -->
+    
+    <!-- Modal -->
+<div class="modal fade modal-large" id="ideas-modal" tabindex="-1" role="dialog" aria-labelledby="video Ideas">
+  <div class="modal-dialog" role="document">
+      <div class="modal-body">
+        <button data-dismiss="modal"><span aria-hidden="true"><i class="carbon-cancel"></i></span></button>
+        <video id="ideas-vid" class="video-js vjs-default-skin" controls preload data-setup='{ "aspectRatio":"899:658" }'>
+                                <source src="https://res.cloudinary.com/triangle/video/upload/v1492608260/ideas.mp4" type="video/mp4">
+                                <p class="browserupgrade">Estas usando una versión muy <strong>anticuada</strong> de tu navegador. Por favor <a href="http://browsehappy.com/">actualiza tu navegador</a> para tener una mejor experiencia en la red.</p>
+                            </video>
+      </div>
+  </div>
+</div>
     
     <!-- Notification Bar -->
     <!--<div class="" data-wow-duration=".5s" data-wow-delay="1.5s">
@@ -211,7 +224,7 @@
                 <div class="col-md-4 marketing-item">
                     <i class="marketing-icon carbon-laptop"></i>
                     <span class="marketing-title">Diseño Responsive</span>
-                    <span class="marketing-text">Con las mejores tecnologías de diseño y desarrollo web (HTML5, CSS3 y JS ES6)  hacemos que tu sitio sea vea impactantemente bien en todos los dispositivos, ya sea un celular, una  laptop, desktops, tablets e incluso televisionesnde último modelo.</span>
+                    <span class="marketing-text">Con las mejores tecnologías de diseño y desarrollo web (HTML5, CSS3 y JS ES6)  hacemos que tu sitio sea vea impactantemente bien en todos los dispositivos, ya sea un celular, una  laptop, desktops, tablets e incluso televisiones de último modelo.</span>
                 </div>
                 <div class="col-md-4 marketing-item">
                     <i class="marketing-icon carbon-work"></i>
@@ -256,7 +269,7 @@
         <div class="container">
             <h1 class="section-title"> <span>Contáctanos</span> </h1>
             <div class="divider-title"></div>
-            <p class="section-lead">Ya nos conoces. Ahora nosotros queremos saber unpoco de ti. ¡Porfavor escribenos!</p>
+            <p class="section-lead">Ya nos conoces. Ahora nosotros queremos saber unpoco de ti. ¡Porfavor escríbenos!</p>
             
             <form class="contactform" method="POST" action="http://formspree.io/contacto@triangle.mx">
                       <p class="placeholder">Tu Nombre:</p>

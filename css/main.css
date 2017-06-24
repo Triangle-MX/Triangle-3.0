@@ -45,7 +45,7 @@ body {
     font-family: 'Lato', sans-serif;
     
     color: #1b1b1b;
-    /*background-color: #1b1b1b;*/
+    background-color: #1b1b1b;
     
     margin: 0px;
     padding: 0px;
@@ -341,7 +341,7 @@ a:hover {
 
 #proceso {
     padding: 50px 0;
-    background-color: white;
+    color:white !important;
     /*background-color: rgba(256,256,256,.97);
     background-image: url(../img/pattern.svg);
     background-blend-mode: overlay;
@@ -368,6 +368,7 @@ a:hover {
 
 .step-text {
     font-size: 95%;
+    text-align: justify;
 }
 
 /* Proyectos */
@@ -599,15 +600,15 @@ a:hover {
 .contactform input, .contactform textarea {
     color: #1b1b1b !important;
     width: 100%;
-    margin-top: -10px;
+    margin-top: -7px;
     margin-bottom: 10px;
     padding: 10px;
     transition: .5s;
+    border: 3px solid rgba(0,0,0,.0);
 }
 
 .contactform input:active , .contactform textarea:active, .contactform input:focus, .contactform textarea:focus {
     outline: none;
-    margin-top: -7px;
     border: 3px solid #ffb61e;
     border-radius: 10px;
     -ms-transform: scale(1.05);
